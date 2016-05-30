@@ -96,5 +96,4 @@ h2, h3 {font-size: 18px; line-height: 27px;}
 
 ```
 
-###Keeping Stylesheets Legible & Maintainable:
-An Important Consideration Relating to the 3 Concise Stylesheet Best Practices Above###
+###Keeping Stylesheets Legible & Maintainable: An Important Consideration while Following the 3 Concise Stylesheet Best Practices Above###
