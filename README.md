@@ -53,6 +53,28 @@ h1 {background: rgb(127,0,0) url('/assets/theme/elements/heading-logo.png') no-r
 
 **2) Where possible, group related CSS declarations which consistently appear together**
 
+Instead of:
+
+``` css
+h1 {
+color: rgb(127,127,127);
+}
+
+h1 {
+font-size: 24px;
+}
+
+h1 {
+line-height: 36px;
+}
+```
+
+use:
+
+``` css
+h1 {color: rgb(127,127,127); font-size: 24px; line-height: 36px;}
+```
+
 **3) Where possible, group related CSS elements and classes which consistently share the same declarations**
 
-###Keeping Stylesheets Maintainable: One Consideration###
+###Keeping Stylesheets Maintainable: One Further Consideration###
