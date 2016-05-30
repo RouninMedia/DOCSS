@@ -3,9 +3,9 @@ SECSS (Sequentially Expressed CSS) is an approach to writing CSS files which bui
 
 The **two** primary defining characteristics of SECSS are that
 
-i. the style author groups elements and classes by style declaration, rather than grouping style declarations by element or class; and
+1. the style author groups elements and classes by style declaration, rather than grouping style declarations by element or class; and
 
-ii. the stylesheet is broken down into sub-sections, such that the entire document resembles a collection of smaller, self-contained stylesheets.
+2. the stylesheet is broken down into sub-sections, such that the entire document resembles a collection of smaller, self-contained stylesheets.
 
 ##Before starting SECSS##
 
