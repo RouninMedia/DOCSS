@@ -77,4 +77,22 @@ h1 {color: rgb(127,127,127); font-size: 24px; line-height: 36px;}
 
 **3) Where possible, group *related* CSS elements and classes which consistently share the same style declarations**
 
+Instead of:
+
+``` css
+h1 {color: rgb(127,127,127); font-size: 24px; line-height: 36px;}
+h2 {color: rgb(127,127,127); font-size: 18px; line-height: 27px;}
+h3 {color: rgb(191,191,191); font-size: 18px; line-height: 27px;}
+```
+
+use:
+
+``` css
+h1, h2 {color: rgb(127,127,127);}
+h3 {color: rgb(191,191,191);}
+h1 {font-size: 24px; line-height: 36px;}
+h2, h3 {font-size: 18px; line-height: 27px;}
+
+```
+
 ###Keeping Stylesheets Maintainable: One Further Consideration###
