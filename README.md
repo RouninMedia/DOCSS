@@ -13,9 +13,9 @@ A couple of considerations before you to start to explore SECSS and discover how
 
 ###Keeping Stylesheets Concise: Three Best Practices###
 
-1. Wherever possible, use CSS shorthands.
+1. Where possible, use *CSS shorthands*
 
-eg.
+*eg.*
 
 Instead of:
 
@@ -51,8 +51,8 @@ h1 {background: rgb(127,0,0) url('/assets/theme/elements/heading-logo.png') no-r
 ```
 
 
-2.
+2. Where possible group CSS declarations which consistently appear together
 
-3.
+3. Where possible group CSS elements and classes which consistently share the same declarations
 
 ###Keeping Stylesheets Maintainable: One Consideration###
