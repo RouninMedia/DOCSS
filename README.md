@@ -90,6 +90,7 @@ use:
 ``` css
 h1, h2 {color: rgb(127,127,127);}
 h3 {color: rgb(191,191,191);}
+
 h1 {font-size: 24px; line-height: 36px;}
 h2, h3 {font-size: 18px; line-height: 27px;}
 
