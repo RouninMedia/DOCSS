@@ -97,3 +97,13 @@ h2, h3 {font-size: 18px; line-height: 27px;}
 ```
 
 ###Keeping Stylesheets Legible & Maintainable: An Important Consideration while Following the 3 Concise Stylesheet Best Practices Above###
+
+The objective of having SECSS on your website is not just to keep your styles relatively concise, but also clearly legible and highly maintainable. Concision is important, but it's not intended to be a consideration which overrides all others .
+
+Reviewing the last example above, it would be *even more* concise to write:
+
+``` css
+h1,h2{color:#888;font-size:24px;line-height:36px;}
+h2,h3{font-size:18px;line-height:27px;}
+h3 {color:#bbb;}
+```
