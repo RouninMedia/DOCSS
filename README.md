@@ -11,7 +11,7 @@ ii) the stylesheet is broken down into sub-sections, such that the entire docume
 
 A couple of considerations before you to start to explore SECSS and discover how comfortable and enjoyable it can be. 
 
-###Keeping Stylesheets Concise: Three Best Practices###
+###Concise Stylesheets: Three Best Practices###
 
 **1) Where possible, use *CSS shorthands***
 
@@ -96,4 +96,4 @@ h2, h3 {font-size: 18px; line-height: 27px;}
 
 ```
 
-###Keeping Stylesheets Maintainable: One Further Consideration###
+###Keeping Stylesheets Maintainable: An Important Consideration Relating to the 3 Concise Stylesheet Best Practices Above###
