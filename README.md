@@ -112,3 +112,5 @@ but, there are arguably 3 problems with this - the first two relating to *styles
 1.
 2.
 3. The stylesheet fragment above declares the `font-size` and the `line-height` of `h2` twice, which requires the human reader to perform the `cascade` in their head.
+
+**In Summary:** A concise stylesheet is the objective. But not at the cost of *maintainability* or *legibility*.
