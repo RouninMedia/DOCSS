@@ -51,7 +51,7 @@ h1 {background: rgb(127,0,0) url('/assets/theme/elements/heading-logo.png') no-r
 ```
 
 
-**2) Where possible, group related CSS style declarations which consistently appear together**
+**2) Where possible, group *related* CSS style declarations which consistently appear together**
 
 Instead of:
 
@@ -75,6 +75,6 @@ use:
 h1 {color: rgb(127,127,127); font-size: 24px; line-height: 36px;}
 ```
 
-**3) Where possible, group related CSS elements and classes which consistently share the same style declarations**
+**3) Where possible, group *related* CSS elements and classes which consistently share the same style declarations**
 
 ###Keeping Stylesheets Maintainable: One Further Consideration###
