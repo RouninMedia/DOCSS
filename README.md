@@ -96,7 +96,7 @@ h2, h3 {font-size: 18px; line-height: 27px;}
 
 ```
 
-###Keeping Stylesheets Legible & Maintainable: An Important Consideration while Following the 3 Concise Stylesheet Best Practices Above###
+###Keeping Stylesheets Maintainable & Legible: An Important Consideration while Following the 3 Concise Stylesheet Best Practices Above###
 
 The objective of having SECSS on your website is not just to keep your styles relatively concise, but also clearly legible and highly maintainable. Concision is important, but it's not intended to be a consideration which overrides all others .
 
@@ -105,5 +105,10 @@ Reviewing the last example above, it would be *even more* concise to write:
 ``` css
 h1,h2{color:#888;font-size:24px;line-height:36px;}
 h2,h3{font-size:18px;line-height:27px;}
-h3 {color:#bbb;}
+h3{color:#bbb;}
 ```
+but, there are arguably 3 problems with this - the first two relating to *stylesheet maintainability* and the last relating to *stylesheet legibility*:
+
+1.
+2.
+3. The stylesheet fragment above declares the `font-size` and the `line-height` of `h2` twice, which requires the human reader to perform the `cascade` in their head.
