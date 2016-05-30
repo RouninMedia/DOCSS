@@ -1,7 +1,7 @@
 # SECSS (Sequentially Expressed CSS)
 SECSS (Sequentially Expressed CSS) is an approach to writing CSS files which builds on the DRY CSS approach.
 
-The **two** primary defining characteristics of SECSS are that
+The **two** primary defining characteristics of SECSS are that:
 
 1. the style author groups elements and classes by style declaration, rather than grouping style declarations by element or class; and
 
