@@ -1,15 +1,15 @@
-# SECSS (Sequentially Expressed CSS)
-SECSS (Sequentially Expressed CSS) is an approach to writing CSS files which builds on the DRY CSS approach.
+# DOCSS (Declaration Ordered CSS)
+DOCSS (Declaration Ordered CSS) is an approach to writing CSS files which builds on the DRY CSS approach.
 
-The **two** primary defining characteristics of SECSS are that:
+The **two** primary defining characteristics of DOCSS are that:
 
 1. the style author groups elements and classes by style declaration, rather than grouping style declarations by element or class; and
 
 2. the stylesheet is broken down into sub-sections, such that the entire document resembles a collection of smaller, self-contained stylesheets.
 
-##Before starting SECSS##
+##Before starting DOCSS##
 
-A couple of considerations before you to start to explore SECSS and discover how comfortable and enjoyable it can be. 
+A couple of considerations before you adopt the DOCSS approach to stylesheet formatting. 
 
 ###Concise Stylesheets: Three Best Practices###
 
@@ -72,7 +72,8 @@ line-height: 36px;
 use:
 
 ``` css
-h1 {color: rgb(127,127,127); font-size: 24px; line-height: 36px;}
+h1 {color: rgb(127,127,127);}
+h1 {font-size: 24px; line-height: 36px;}
 ```
 
 **3) *Then*, where possible, group *related* CSS elements and classes which consistently share the same style declarations**
