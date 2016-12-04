@@ -5,11 +5,11 @@ The **two** primary defining characteristics of DOCSS are that:
 
 1. the style author groups elements and classes by style declaration, rather than grouping style declarations by element or class; and
 
-2. the stylesheet is broken down into sub-sections, such that the entire document resembles a collection of smaller, self-contained stylesheets.
+2. the stylesheet is broken down into sub-sections, such that the entire document *resembles* a collection of smaller, self-contained stylesheets.
 
 The **three** principle advantages of DOCSS are:
 
-1. The stylesheet formatting easily enables the stylesheet author to maintain consistent "house style" colours and dimensions across any number of elements;
+1. This approach to stylesheet formatting easily enables the stylesheet author to maintain consistent "house style" colours and dimensions across any number of elements;
 
 2. debugging the stylesheet becomes very straightforward; and
 
