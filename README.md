@@ -65,7 +65,11 @@ Instead of:
 
 ``` css
 h1 {
-color: rgb(127,127,127);
+margin: 6px auto;
+}
+
+h1 {
+padding: 0 6px;
 }
 
 h1 {
@@ -80,11 +84,11 @@ line-height: 36px;
 use:
 
 ``` css
-.TEXT-COLOR,
-h1 {color: rgb(127,127,127);}
+.MARGIN-PADDING,
+h1 {margin:6px auto; padding:0 6px;}
 
 .TEXT-SIZE,
-h1 {font-size: 24px; line-height: 36px;}
+h1 {font-size:24px; line-height:36px;}
 ```
 
 **3) *Then*, where possible, group *related* CSS elements and classes which consistently share the same style declarations**
