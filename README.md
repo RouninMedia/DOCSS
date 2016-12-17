@@ -121,12 +121,12 @@ h1,h2{color:#888;font-size:24px;line-height:36px;}
 h2,h3{font-size:18px;line-height:27px;}
 h3{color:#bbb;}
 ```
-but, there are arguably 2 problems with this - the first relating to *stylesheet maintainability* and the second relating to *stylesheet legibility*:
+but, there are arguably 2 problems with this - the first relating to *stylesheet legibility* and the second relating to *stylesheet maintainability*:
 
-1. Since all declarations are thrown together above, there is no way to predict which style declarations will appear where. This makes the the stylesheet fragment harder to maintain. In DOCSS, splitting styles into semi-autonomous "Declaration Groups" enables consistently rapid location of style declarations and their associated elements;
-2. The stylesheet fragment above declares the `font-size` and the `line-height` of `h2` twice, which requires the human reader to perform the `cascade` in their own head.
+1. The stylesheet fragment above declares the `font-size` and the `line-height` of `h2` twice, which requires the human reader to perform the `cascade` in their own head;
+2. Now that `h2` appears twice, there is no way to predict where current `h2` style declarations will appear and where future `h2` style declarations *should* appear. This makes the the stylesheet fragment harder to maintain. In DOCSS, splitting styles into semi-autonomous "Declaration Groups", where each element appears once only enables stylesheets to evolve and be maintained in a consistent and predictable manner;
 
-**In Summary:** A concise stylesheet is the objective. But not at the cost of *maintainability* or *legibility*.
+**In Summary:** A concise stylesheet is the objective. But not at the cost of *legibility* or *maintainability*.
 
 ##URL list to plough through...##
 
