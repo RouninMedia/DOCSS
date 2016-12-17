@@ -1,0 +1,78 @@
+.CUSTOM-PROPERTIES,
+
+.DISPLAY,
+
+.POSITION,
+
+.CO-ORDINATES,
+
+.FLEX-PARENT,
+
+.FLEX-CHILDREN,
+
+.FLOAT_CLEAR,
+
+.WIDTH_HEIGHT,
+
+.MARGIN_PADDING,
+
+.TEXT-SIZE,
+
+.TEXT-COLOR,
+
+.TEXT-TYPEFACE,
+@font-face {
+font-family: 'my-typeface';
+src: url('/assets/theme/fonts/my-typeface.eot'); /* IE9 Compat Modes */
+src: url('/assets/theme/fonts/my-typeface.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('/assets/theme/fonts/my-typeface.woff2') format('woff2'), /* Super Modern Browsers */
+url('/assets/theme/fonts/my-typeface.woff') format('woff'), /* Pretty Modern Browsers */
+url('/assets/theme/fonts/my-typeface.ttf')  format('truetype'), /* Safari, Android, iOS */
+url('/assets/theme/fonts/my-typeface.svg#save-hri') format('svg'); /* Legacy iOS */
+}
+
+.TEXT-PRESENTATION,
+
+.BACKGROUND,
+
+.BORDER,
+
+.BORDER-RADIUS,
+
+.BOX-SHADOW,
+
+.ELEMENT-PRESENTATION,
+
+.PSEUDO-ELEMENTS,
+input[type="text"]::-webkit-input-placeholder {color:rgb(-,-,-);} /* Safari, Chrome and Opera */
+input[type="text"]:-moz-placeholder {color:rgb(-,-,-);} /* firefox 18- */
+input[type="text"]::-moz-placeholder {color:rgb(-,-,-);} /* firefox 19+ */
+input[type="text"]:-ms-input-placeholder {color:rgb(-,-,-);}  /*IE */
+input[type="text"]::-ms-input-placeholder {color:rgb(-,-,-);}  /* Edge */
+input[type="text"]:placeholder-shown {color:rgb(-,-,-);} /* CSS Level 4 Selector */
+
+.TRANSFORM,
+
+.TRANSITIONS,
+
+/* @KEYFRAMES */
+
+/* @MEDIA QUERIES */
+
+@media only screen and (max-width: ---px) {
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px),
+only screen and (min-device-width:320px) and (max-device-width:568px),
+only screen and (min-device-width:360px) and (max-device-width:598px) {
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape),
+only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:landscape),
+only screen and (min-device-width:360px) and (max-device-width:598px) and (orientation:landscape) {
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait),
+only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:portrait),
+only screen and (min-device-width:360px) and (max-device-width:598px) and (orientation:portrait) {
+}
