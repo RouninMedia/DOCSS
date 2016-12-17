@@ -112,7 +112,7 @@ h2, h3 {font-size: 18px; line-height: 27px;}
 
 ###Keeping Stylesheets Maintainable & Legible: An Important Consideration while Following the 3 Concise Stylesheet Best Practices Above###
 
-The objective of having SECSS on your website is not just to keep your styles relatively concise, but also clearly legible and highly maintainable. Concision is important, but it's not intended to be a consideration which overrides all others .
+The objective of having DOCSS on your website is not just to keep your styles relatively concise, but also clearly legible and highly maintainable. Concision is important, but it's not intended to be a consideration which overrides all others .
 
 Reviewing the last example above, it would be *even more* concise to write:
 
@@ -123,7 +123,7 @@ h3{color:#bbb;}
 ```
 but, there are arguably 3 problems with this - the first two relating to *stylesheet maintainability* and the last relating to *stylesheet legibility*:
 
-1.
+1. The stylesheet fragment above is harder to maintain because rather than being split into semi-autonomous "Declaration Groups" enabling rapid location of style declarations and their associated elements, all declarations are thrown together - there is no way to predict which style declarations will appear where;
 2.
 3. The stylesheet fragment above declares the `font-size` and the `line-height` of `h2` twice, which requires the human reader to perform the `cascade` in their own head.
 
