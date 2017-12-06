@@ -15,11 +15,11 @@ The **three** principle advantages of DOCSS are:
 
 3. refactoring the stylesheet as it evolves and grows becomes very straightforward.
 
-##Before starting DOCSS##
+## Before starting DOCSS ##
 
 A couple of considerations before you adopt the DOCSS approach to stylesheet formatting. 
 
-###Concise Stylesheets: Three Best Practices###
+### Concise Stylesheets: Three Best Practices ###
 
 **1) Where possible, use *CSS shorthands***
 
