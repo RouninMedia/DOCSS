@@ -91,9 +91,9 @@ h1 {margin:6px auto; padding:0 6px;}
 h1 {font-size:24px; line-height:36px;}
 ```
 
-**3) *Then*, where possible, group *related* CSS elements and classes which consistently share the same style declarations**
+**3) *Then*, where possible, in the respective category section of the stylesheet, group *related* all CSS elements and classes which share the same style declarations**
 
-Instead of:
+Example:
 
 ``` css
 h1 {color: rgb(127,127,127); font-size: 24px; line-height: 36px;}
@@ -101,7 +101,21 @@ h2 {color: rgb(127,127,127); font-size: 18px; line-height: 27px;}
 h3 {color: rgb(191,191,191); font-size: 18px; line-height: 27px;}
 ```
 
-use:
+could be written as:
+
+```css
+.TEXT-COLOR,
+h1 {color: rgb(127,127,127);}
+h2 {color: rgb(127,127,127);}
+h3 {color: rgb(191,191,191);}
+
+.TEXT-SIZE,
+h1 {font-size: 24px; line-height: 36px;}
+h2 {font-size: 18px; line-height: 27px;}
+h3 {font-size: 18px; line-height: 27px;}
+```
+
+but is better written as:
 
 ``` css
 .TEXT-COLOR,
@@ -114,16 +128,16 @@ h2, h3 {font-size: 18px; line-height: 27px;}
 
 ```
 
-###Keeping Stylesheets Maintainable & Legible: An Important Consideration while Following the 3 Concise Stylesheet Best Practices Above###
+### Keeping Stylesheets Maintainable & Legible: An Important Consideration while Following the 3 Concise Stylesheet Best Practices Above ###
 
 The objective of having DOCSS on your website is not just to keep your styles relatively concise, but also clearly legible and highly maintainable. Concision is important, but it's not intended to be a consideration which overrides all others .
 
 Reviewing the last example above, it would be *even more* concise to write:
 
 ``` css
-h1,h2{color:#888;font-size:24px;line-height:36px;}
-h2,h3{font-size:18px;line-height:27px;}
-h3{color:#bbb;}
+h1,h2{color:#888;font-size:24px;line-height:36px}
+h2,h3{font-size:18px;line-height:27px}
+h3{color:#bbb}
 ```
 but, there are arguably 2 problems with this - the first relating to *stylesheet legibility* and the second relating to *stylesheet maintainability*:
 
