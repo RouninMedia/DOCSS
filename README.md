@@ -9,9 +9,9 @@ The **two** primary defining characteristics of DOCSS are that:
 
 The **three** principle advantages of DOCSS are:
 
-1. This approach to stylesheet formatting easily enables the stylesheet author to maintain consistent "house style" colours and dimensions across any number of elements;
+1. This approach to stylesheet formatting easily enables the stylesheet author to consistently maintain and update "house style" colours and dimensions across any number of elements - especially when used in conjunction with **CSS Custom Variables**;
 
-2. debugging the stylesheet becomes very straightforward; and
+2. debugging the stylesheet becomes remarkably straightforward; and
 
 3. refactoring the stylesheet as it evolves and grows becomes very straightforward.
 
