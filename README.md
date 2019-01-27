@@ -3,7 +3,7 @@ DOCSS (Declaration Ordered CSS) is an approach to writing CSS files which builds
 
 The **two** primary defining characteristics of DOCSS are that:
 
-1. the style author groups elements and classes by style declaration, rather than grouping style declarations by element or class; and
+1. the style author groups elements and classes by style declaration, rather than grouping style declarations by element, class or id; and
 
 2. the stylesheet is broken down into sub-sections, such that the entire document *resembles* a collection of smaller, self-contained stylesheets.
 
