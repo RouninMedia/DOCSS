@@ -1,24 +1,28 @@
-.GLOBAL-CUSTOM-PROPERTIES,
+#GLOBAL-CUSTOM-PROPERTIES,
 
-.DISPLAY,
+#DISPLAY,
 
-.POSITION,
+#POSITION,
 
-.CO-ORDINATES,
+#CO-ORDINATES,
 
-.FLEX-PARENT,
+#GRID-PARENT,
 
-.FLEX-CHILDREN,
+#GRID-CHILDREN,
 
-.FLOAT_CLEAR,
+#FLEX-PARENT,
 
-.WIDTH_HEIGHT,
+#FLEX-CHILDREN,
 
-.MARGIN_PADDING,
+#FLOAT_CLEAR,
 
-.TEXT-SIZE,
+#WIDTH_HEIGHT,
 
-.TEXT-COLOR,
+#MARGIN_PADDING,
+
+#TEXT-SIZE,
+
+#TEXT-COLOR,
 
 /* @FONT FACE */
 
@@ -28,32 +32,32 @@ src: url('/.assets/theme/elements/fonts/my-typeface.woff2') format('woff2'), /* 
      url('/.assets/theme/elements/fonts/my-typeface.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
-.TEXT-TYPEFACE,
+#TEXT-TYPEFACE,
 
-.TEXT-PRESENTATION,
+#TEXT-PRESENTATION,
 
-.BACKGROUND,
+#BACKGROUND,
 
-.BORDER,
+#BORDER,
 
-.BORDER-RADIUS,
+#BORDER-RADIUS,
 
-.BOX-SHADOW,
+#BOX-SHADOW,
 
-.ELEMENT-PRESENTATION,
+#ELEMENT-PRESENTATION,
 
-.PSEUDO-ELEMENTS,
+#PSEUDO-ELEMENTS,
 input[type="text"]::-webkit-input-placeholder {color:rgb(-,-,-); opacity: 0.5;} /* Safari, Chrome and Opera */
 input[type="text"]:-ms-input-placeholder {color:rgb(-,-,-); opacity: 0.5;}  /*IE */
 input[type="text"]::-ms-input-placeholder {color:rgb(-,-,-); opacity: 0.5;}  /* Edge */
 input[type="text"]:placeholder-shown {color:rgb(-,-,-); opacity: 0.5;} /* CSS Level 4 Selector */
 input[type="text"]::placeholder {color:rgb(-,-,-); opacity: 0.5;} /* Standard */
 
-.TRANSFORM,
+#TRANSFORM,
 
-.TRANSITIONS,
+#TRANSITIONS,
 
-.ANIMATIONS,
+#ANIMATIONS,
 
 /* @KEYFRAMES */
 
